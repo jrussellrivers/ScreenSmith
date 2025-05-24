@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://c6a4awuckbnsl"]
+
+[ext_resource type="Script" uid="uid://c3uxmvhlh3r3r" path="res://game.gd" id="1_80nbo"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_80nbo")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+anchor_mode = 0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 640.0
+offset_bottom = 380.0
+mouse_filter = 2
+color = Color(0.625597, 0.625597, 0.625597, 1)

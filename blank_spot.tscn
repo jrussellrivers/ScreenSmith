@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://becyevden25mk"]
+
+[ext_resource type="Script" uid="uid://cai0cmmnbmkup" path="res://blank_spot.gd" id="1_gj847"]
+
+[node name="BlankSpot" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_gj847")
